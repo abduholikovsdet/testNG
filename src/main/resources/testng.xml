@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CrmTestSuite">
+    <listeners>
+        <listener class-name="com.crm.extentReportListener.HtmlReporterListener" />
+    </listeners>
+    <test name="CrmTestCase">
+        <classes>
+            <class name="com.crm.testcases.HomePageTest" />
+            <class name="com.crm.testcases.LoginPageTest" />
+            <class name="com.crm.testcases.ContactsPageTest" />
+                        <!-- Add more classes as needed -->
+        </classes>
+    </test>
+</suite>
